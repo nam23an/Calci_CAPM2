@@ -5,6 +5,15 @@ import time
 from PIL import Image
 import os
 
+# Ensure required libraries are listed
+REQUIREMENTS = """
+streamlit
+numpy
+matplotlib
+pillow
+os
+"""
+
 # Function to check if file exists
 def file_exists(file_path):
     return os.path.exists(file_path)
