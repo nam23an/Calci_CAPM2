@@ -1,9 +1,9 @@
 import streamlit as st
 import numpy as np
-import matplotlib.pyplot as plt
 import time
-from PIL import Image
 import os
+from PIL import Image
+import matplotlib.pyplot as plt  # Move this import after the others
 
 # Ensure required libraries are listed
 REQUIREMENTS = """
